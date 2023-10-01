@@ -11,6 +11,9 @@ app.use(bodyParser.json());
 // connecting to db here
 connectDB(process.env.MONGO_URI);
 
+const videoRoutes = require("./routes/video.routes");
+const transcriptionRoutes = require("./routes/transcription.routes");
+
 app.use('/videos', videoRoutes);
 app.use('/transcriptions', transcriptionRoutes);
 
