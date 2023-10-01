@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const videoController = require('../controllers/videoController');
+const videoController = require('../controllers/video.controllers');
 const multer = require('multer'); // For handling file uploads
 
 // Multer configuration for handling file uploads

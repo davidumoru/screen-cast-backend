@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const transcriptionController = require('../controllers/transcriptionController');
+const transcriptionController = require('../controllers/transcription.controllers');
 
 // Create a transcription
 router.post('/create', transcriptionController.createTranscription);
