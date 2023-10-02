@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const videoUploadDir = path.join(__dirname, '../public/videos');
+const videoUploadDir = path.join(__dirname, '../../public/videos');
 
 exports.saveFile = (file) => {
   return new Promise((resolve, reject) => {
