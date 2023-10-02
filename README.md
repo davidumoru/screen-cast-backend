@@ -1,5 +1,3 @@
-# [Click to See Video of How the Backend Works](https://drive.google.com/file/d/1CFC1kEdsl-hG13KeN-Ym5i4BknPfTlZJ/view?usp=sharing)
-
 # Code Explanation
 
 ## `uploadVideo` Function
