@@ -10,7 +10,11 @@ exports.uploadVideo = async (req, res) => {
     const video = new Video({ filePath });
     await video.save();
 
-    res.status(201).json({ message: 'Video uploaded successfully' });
+    res.status(201).json({
+      message: 'Video uploaded successfully',
+      filePath: video.filePath,
+      videoId: video._id,
+    });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Internal server error' });
