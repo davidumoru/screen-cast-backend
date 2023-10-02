@@ -17,7 +17,7 @@ const videoRoutes = require("./routes/video.routes");
 const transcriptionRoutes = require("./routes/transcription.routes");
 
 app.use('/videos', videoRoutes);
-app.use('/transcriptions', transcriptionRoutes);
+app.use('/transcribe', transcriptionRoutes);
 
 // Defining a route for the root URL ("/")
 app.get("/", (req, res) => {
