@@ -34,8 +34,6 @@ This function handles the transcription of video files using OpenAI's Whisper mo
 
 # Sending Requests (VIDEOS)
 
-Using the url `https://screencast.onrender.com/` in Postman.
-
 ## Uploading a Video
 1. Make a POST request (`{api}/videos/upload`)
 2. In the body section, select "form-data."
