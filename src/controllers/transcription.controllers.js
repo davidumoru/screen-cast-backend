@@ -1,4 +1,3 @@
-const fs = require("fs");
 const Video = require("../models/video.models");
 const openaiUtils = require("../utils/openai.utils");
 const Transcription = require("../models/transcription.models");

@@ -1,7 +1,6 @@
 const Video = require('../models/video.models');
 const fileUtils = require('../utils/file.utils');
 const fs = require('fs');
-const path = require('path');
 
 // Handle video upload
 exports.uploadVideo = async (req, res) => {
